@@ -17,13 +17,13 @@ module.exports = async () => {
 		defaultLayout: "main",
 		helpers: {
 			isDev() {
-				return !( (process.env.NODE_ENV || "").toLowerCase() === "production");
+				return ! isPro;
 			},
 			isPro () {
 				return isPro;
 			},
 			pwd () {
-				return __dirname.split("/").slice(0, -3).join("/")
+				return __dirname;
 			},
 			appV () {
 				return __appV;
