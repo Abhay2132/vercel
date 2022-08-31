@@ -8,7 +8,7 @@ const path = require("path")
 
 app.engine(".hbs", engine);
 app.set("view engine", ".hbs");
-app.set("views", "static/views");
+app.set("views", path.resolve("static", "views"));
 
 app.use(router);
 
