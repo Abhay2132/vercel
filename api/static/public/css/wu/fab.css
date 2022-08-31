@@ -1,0 +1,88 @@
+#wa-app {
+	--fab-size: 55px;
+	--svg-size: 40%;
+}
+
+.fab {
+	height: var(--fab-size);
+	width: var(--fab-size);
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.fab [icon="plus"] {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	transition: 0.5s;
+	background: #1b8800;
+}
+
+.fab [icon="plus"] svg {
+	height: var(--svg-size);
+	width: var(--svg-size);
+}
+
+.fab [icon="plus"] svg path {
+	stroke: #eee;
+	stroke-width: 8px;
+	stroke-linecap: round;
+}
+
+.fab-opts {
+	width: var(--fab-size);
+	border-radius: 40px;
+	display: flex;
+	flex-direction: column;
+
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+
+	opacity: 0;
+
+	overflow: hidden;
+	height: 0;
+	transition: 0.5s;
+
+	background: #91c85a;
+}
+
+.fab-opts > div {
+	height: var(--fab-size);
+	width: var(--fab-size);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fab-opts > div:hover {
+	background: #678d00;
+}
+
+.fab-opts > div > svg {
+	--svg-size: 75%;
+	height: var(--svg-size);
+	width: var(--svg-size);
+}
+
+@media (prefers-color-scheme: dark) {
+	
+	.fab-opts {
+		background: #49802D;
+	}
+	
+	.fab-opts > div:hover {
+		background: #30561D;
+	}
+	
+}

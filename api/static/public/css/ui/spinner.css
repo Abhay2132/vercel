@@ -1,0 +1,26 @@
+/*
+.spinner-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background: ;
+}
+
+.spinner {
+	border-radius: 50%;
+	--spinner-size: 60px;
+	height: var(--spinner-size);
+	width: var(--spinner-size);
+	border: 8px solid rgba(0,0,0,0.1);
+	border-top-color: #444;
+	animation: spinr-anim 1s linear 0s infinite normal;
+}
+
+@keyframes spinr-anim{
+	from { transform: rotate(0deg);}
+	to { transform: rotate(360deg);}
+}
+
+
+
+*/
