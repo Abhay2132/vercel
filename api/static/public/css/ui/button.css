@@ -1,0 +1,17 @@
+button,
+.button {
+	box-shadow: 0px 4px 1px #555;
+	cursor: pointer;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	transition: 0.2s;
+	display: inline-block;
+	transform: translateY(0px);
+	user-select: none;
+}
+
+button:active {
+	box-shadow: 0px 1px 1px #666;
+	transform: translateY(3px);
+}

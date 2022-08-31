@@ -1,0 +1,22 @@
+.fm-nav-bar {
+	border-radius: 5px;
+	white-space: nowrap;
+	padding: 1px;
+	background: #ddd;
+	overflow: scroll;
+	transition: 0.4s;
+}
+
+.fm-nav-bar > * {
+	display: inline-block;
+}
+
+.fm-nav-bar > span {
+	padding: 1px 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.fm-nav-bar {
+		background: #222;
+	}
+}
