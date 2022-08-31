@@ -1,0 +1,53 @@
+.svg-icon {
+	width: 100%;
+	height: 100%;
+	stroke: #333;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+	fill: #333;
+}
+
+.svg-icon circle {
+	stroke: #4691f6;
+	stroke-width: 1;
+}
+
+div[icon="user"] > svg {
+	--stroke-size: 3;
+	--size: 100%;
+	height: var(--size);
+	width: var(--size);
+	border-radius: 5px;
+	background: none;
+}
+
+div[icon="user"] > svg * {
+	stroke-width: var(--stroke-size);
+	stroke: #000;
+	fill: none;
+	stroke-linecap: round;
+}
+
+[icon="group"] > svg > * {
+	fill: none;
+	stroke-width: 3;
+	stroke: #000;
+}
+
+/* SEARCH */
+
+[icon="search"] svg * {
+	fill: none;
+	stroke: black;
+}
+
+[icon="search"] svg circle {
+	stroke-width: 4;
+}
+
+[icon="search"] svg path {
+	stroke-width: 8;
+}

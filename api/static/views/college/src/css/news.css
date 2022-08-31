@@ -1,0 +1,50 @@
+
+#news {
+	background : #eee; 
+	border-radius: 10px;
+	margin : 15px;
+	padding : 10px;
+}
+
+#news > h3 {
+	display : block;
+	margin : 10px;
+	font-weight : 400;
+	font-size:  14px;
+	border-bottom : 1px solid;
+	padding : 5px 20px;
+	text-decoration : none;
+	width: 150px;
+	text-align : center;
+}
+
+.news {
+	display : flex;
+}
+
+.news > div {
+	margin : 10px;
+}
+
+.news img {
+	height: 60px;
+	width : 60px;
+	border : 1px solid #444;
+	padding : 3px;
+	box-sizing : border-box;
+	border-radius: 50%;
+	transition : 0.3s;
+}
+
+.news img:hover {
+	padding : 1px;
+	border : 2px solid;
+}
+
+.news-body > span {
+	display : block;
+	text-align : justify;
+	font-size: 14px;
+	font-weight : 300;
+	line-height: 1.5;
+}

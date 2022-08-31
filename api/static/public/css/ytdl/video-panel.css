@@ -1,0 +1,33 @@
+.video-panel {
+	border-radius: 5px;
+}
+
+/*
+fsb rc-s bg-ddd m-T chd-div(m-s,p-s,fw-300)
+*/
+.quality {
+	display: flex;
+	justify-content: space-between;
+	background: #ddd;
+	margin-top: 10px;
+}
+
+.quality > div {
+	margin: 5px;
+	padding: 5px;
+	font-weight: 300;
+}
+
+/*w-30pg db hbr(bnw) bdr-L rc-0px_5px_5px_0px crsr-pntr*/
+.ytdl-dbtn {
+	width: 30%;
+	display: block;
+	border-left: 1px solid;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+}
+
+.ytdl-dbtn:hover {
+	background: #124f8e;
+	color: #fff;
+}

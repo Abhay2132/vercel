@@ -1,0 +1,22 @@
+#mainNav {
+	--nav-size: 50px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 99;
+	text-align: center;
+	display: flex;
+	flex-wrap: nowrap;
+	height: var(--nav-size);
+}
+
+#mainH {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	line-height: var(--nav-size);
+}

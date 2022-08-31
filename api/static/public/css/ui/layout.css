@@ -1,0 +1,53 @@
+body {
+	perspective: 400px;
+	margin: 0;
+	height: 100%;
+	transition: opacity 0.5s;
+	transform-style: preserve-3d;
+	overflow: scroll;
+	color: var(--body-clr);
+	background: var(--body-bg);
+	background-blend-mode: multiply, multiply;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+* {
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	scroll-behavior: smooth;
+}
+
+#body {
+	transition: 0.3s;
+	position: relative;
+	z-index: 8;
+	transform-origin: 50% 0%;
+}
+
+@media only screen and (min-width: 600px) {
+	#body {
+		positon: relative;
+		--w: 40%;
+		width: var(--w);
+		left: calc(50% - var(--w) / 2);
+	}
+
+	#mainH {
+		font-size: 24px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #ccc;
+	}
+}

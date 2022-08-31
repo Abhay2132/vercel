@@ -1,0 +1,92 @@
+.signup-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	transition: 0.4s;
+	background: 0;
+}
+
+.su-form-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	--icon-size : 35px;
+	--svg-size : 70%;
+	
+	box-shadow: 0 0 5px #aaa;
+	border-radius: 5px;
+	width: 90%;
+}
+
+.su-form-box > h2 {
+	font-weight: 300;
+}
+
+.su-form, 
+.su-btn {
+	padding: 5px;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.su-form-box  .su-if { /* Sign Up input field*/
+	display: flex;
+	margin: 5px 0;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 10px;
+	border: 1px solid;
+}
+
+.su-if > input {
+	display: block;
+	height: var(--icon-size);
+	border: 0;
+	background: none;
+	padding: 0 10px;
+}
+
+.su-if > [icon] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: var(--icon-size);
+	width: var(--icon-size);
+	background: none;
+} 
+
+.su-if > [icon] > svg {
+	height: var(--svg-size);
+	width: var(--svg-size);
+}
+
+.su-btn input {
+	display: block;
+	padding: 10px 30px;
+	background: #007696;
+	color: #fff;
+	border: 0;
+	border-radius: 20px;
+	transition: 0.1s;
+}
+
+.su-btn input:active {
+	transform: scale(0.9);
+}
+
+.captcha {
+	margin-top: 50px;
+	width: 60%;
+	height: 50px;
+} 
+
+.captcha img {
+	max-width: 100%;
+}

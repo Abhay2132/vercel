@@ -1,0 +1,12 @@
+.imgD-progress-bar-container {
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	background: #eee;
+	display: none;
+}
+
+.imgD-progress-bar-container > * {
+	box-sizing: border-box;
+}

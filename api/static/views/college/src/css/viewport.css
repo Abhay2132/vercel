@@ -1,0 +1,66 @@
+#viewport {
+	text-align : center;
+}
+
+.info {
+	padding : 20px;
+	margin : 5px;
+	text-align : justify;
+	line-height : 1.8;
+	background : #eee;
+	font-weight: 300;
+	font-size : 14px;
+	border-radius: 5px;
+}
+
+.t-c {
+	text-align : center;
+}
+
+.vpi {
+	width : 80%;
+	border-radius: 5px;
+	margin : 5px;
+}
+
+ul.vpl {
+	display : flex;
+	justify-content : center;
+	flex-wrap : wrap;
+	border: 0px solid;
+	padding: 0;
+}
+
+ul.vpl > li {
+	display : block;
+	text-align : center;
+	margin: 5px 20px;
+	max-width: 100px;
+}
+
+ul.vpl > li > img {
+	height : 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid #444;
+	padding : 3px;
+	box-sizing : border-box;
+	transition: 0.3s;
+}
+
+ul.vpl > li > span {
+	display : block;
+	text-align: center;
+	font-size : smaller;
+}
+
+ul.vpl img:hover {
+	border: 3px solid #555;
+}
+
+
+
+
+
+
+

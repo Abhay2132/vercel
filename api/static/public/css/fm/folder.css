@@ -1,0 +1,80 @@
+.folder {
+	overflow: hidden;
+	position: relative;
+}
+
+.folder:hover > div {
+	right: 0;
+}
+
+.gb {
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	position: relative;
+	display: flex;
+}
+
+.gb:hover > div {
+	right: 0;
+}
+
+.file,
+.folder {
+	transform: translateY(100px) scale(0);
+	opacity: 0;
+}
+
+.file,
+.folder,
+.gb {
+	background: #ffca00;
+	border: 1px solid;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	display: flex;
+	transition: 0.5s;
+}
+
+.file {
+	background: #eee;
+}
+
+.open-btn,
+.back-btn {
+	position: absolute;
+	height: 30px;
+	display: inline-block;
+	transition: 0.3s;
+	right: -90px;
+	top: 0;
+	cursor: pointer;
+	background: #333;
+	color: #eee;
+	box-sizing: border-box;
+	padding: 5px 20px;
+	user-select: none;
+}
+
+.open-btn:hover,
+.back-btn:hover {
+	background: #1e608b;
+	color: #eee;
+}
+
+@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {*/
+	.folder,
+	.gb {
+		background: #333;
+	}
+	.file {
+		background: #000;
+	}
+
+	.open-btn,
+	.back-btn {
+		background: #000;
+	}
+}
