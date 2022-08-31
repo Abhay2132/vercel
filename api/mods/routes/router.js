@@ -1,8 +1,8 @@
-const {Router} = require("express");
+const router = require("express").Router();
 
-Router.use((req,res) => {
+router.use((req,res) => {
 	const {url, method} = req;
 	res.end(url + " " + method);
 })
 
-module.exports = Router;
+module.exports = router;
