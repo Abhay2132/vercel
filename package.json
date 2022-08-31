@@ -1,0 +1,24 @@
+{
+  "name": "vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Test script LOL'",
+    "start" : "node -e \"require('http').createServer((a,b) => b.end('Hi Abhay')).listen(process.env.PORT || 3000);\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay2132/vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhay2132/vercel/issues"
+  },
+  "homepage": "https://github.com/abhay2132/vercel#readme",
+  "engine" : {
+    "node" : "16.x"
+  }
+}
