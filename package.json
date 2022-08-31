@@ -20,11 +20,5 @@
   "homepage": "https://github.com/abhay2132/vercel#readme",
   "engine": {
     "node": "16.x"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "uglify-js": "^3.17.0",
-    "express-handlebars": "^6.0.2",
-    "cors": "^2.8.5"
   }
 }
